@@ -3,3 +3,7 @@ node_modules
 .env
 
 /src/generated/prisma
+dist/
+prisma7.config.js
+prisma7.config.js.map
+*.tsbuildinfo
