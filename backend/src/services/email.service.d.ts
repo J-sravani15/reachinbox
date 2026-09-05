@@ -1,0 +1,2 @@
+export declare const sendEmail: (smtpHost: string, smtpPort: number, smtpUser: string, smtpPassword: string, from: string, to: string, subject: string, html: string) => Promise<import("nodemailer").SMTPSentMessageInfo>;
+//# sourceMappingURL=email.service.d.ts.map
