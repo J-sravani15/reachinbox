@@ -35,7 +35,10 @@ export const createSender = async (req: Request, res: Response) => {
   }
 };
 
-export const getSenders = async (req, res) => {
+export const getSenders = async (
+  req: Request,
+  res: Response
+) => {
   const senders = await prisma.sender.findMany();
 
   console.log(senders);
@@ -45,7 +48,7 @@ export const getSenders = async (req, res) => {
 
 export const deleteSender = async (req: Request, res: Response) => {
   try {
-    const { id } = req.params;
+    const id = req.params.id as string;
 
     await prisma.sender.delete({
       where: {

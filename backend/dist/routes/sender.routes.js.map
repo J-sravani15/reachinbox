@@ -1,0 +1,1 @@
+{"version":3,"file":"sender.routes.js","sourceRoot":"","sources":["../../src/routes/sender.routes.ts"],"names":[],"mappings":";;AAAA,qCAAiC;AAEjC,wEAI0C;AAE1C,MAAM,MAAM,GAAG,IAAA,gBAAM,GAAE,CAAC;AAExB,MAAM,CAAC,IAAI,CAAC,GAAG,EAAE,gCAAY,CAAC,CAAC;AAC/B,MAAM,CAAC,GAAG,CAAC,GAAG,EAAE,8BAAU,CAAC,CAAC;AAC5B,MAAM,CAAC,MAAM,CAAC,MAAM,EAAE,gCAAY,CAAC,CAAC;AAEpC,kBAAe,MAAM,CAAC"}

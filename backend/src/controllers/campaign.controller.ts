@@ -62,7 +62,7 @@ export const deleteCampaign = async (
   res: Response
 ) => {
   try {
-    const { id } = req.params;
+    const id = req.params.id as string;
 
     await prisma.campaign.delete({
       where: {
@@ -86,7 +86,7 @@ export const startCampaign = async (
   res: Response
 ) => {
   try {
-    const { id } = req.params;
+    const id = req.params.id as string;
 
     const campaign = await prisma.campaign.findUnique({
       where: {
@@ -160,7 +160,7 @@ export const getCampaignStats = async (
   res: Response
 ) => {
   try {
-    const { id } = req.params;
+    const id = req.params.id as string;
 
     const total = await prisma.scheduledEmail.count({
       where: {
